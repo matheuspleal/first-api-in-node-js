@@ -1,0 +1,17 @@
+{
+  "name": "first-api-in-node",
+  "version": "1.0.0",
+  "description": "My first API in Node.js",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev:node": "node --no-warnings --watch src/server-node.js",
+    "dev:express": "node --no-warnings --watch src/server-express.js"
+  },
+  "keywords": [],
+  "author": "Matheus Leal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
